@@ -159,6 +159,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/palette</li>
+
 <li>$:/plugins/reidgould/dpbd</li>
 
 <li>$:/plugins/reidgould/shortid</li>
@@ -166,6 +168,14 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/sidebar</li>
+
+<li>$:/state/tab--1418380610</li>
+
+<li>$:/state/tab--1963855381</li>
+
+<li>$:/state/tab--86143343</li>
 
 <li>$:/state/tab-1163638994</li>
 
@@ -193,7 +203,11 @@ Error message and password prompt
 
 <li>$:/StoryList</li>
 
+<li>$:/theme</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
+
+<li>$:/themes/tiddlywiki/tight</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
@@ -10145,6 +10159,9 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20201226114258612" modified="20201226114419184" title="$:/palette">
+<pre>$:/palettes/Blanca</pre>
+</div>
 <div author="Reid Gould &lt;reidgould@gmail.com&gt;" author-email="reidgould@gmail.com" author-name="Reid Gould" author-web="https://www.reidgould.com" core-version="&gt;=5.0.0" dependents="" description="Dropboard - kanban like organization in the style of Trello using boards, lists, and cards." list="readme license" name="Dropboard" plugin-type="plugin" source="https://github.com/reidgould/tiddlywiki-dropboard" tags="" title="$:/plugins/reidgould/dpbd" type="application/json" userguide="http://reidgould.github.io/tiddlywiki-dropboard" version="1.0.2">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10384,23 +10401,35 @@ Error message and password prompt
 <div created="20201224201155068" modified="20201224201159939" title="$:/SiteTitle">
 <pre>Hands Off Roadmap</pre>
 </div>
+<div created="20201226114122760" modified="20201226114549438" title="$:/state/sidebar">
+<pre>yes</pre>
+</div>
+<div created="20201226113639020" modified="20201226113639020" title="$:/state/tab--1418380610">
+<pre>$:/core/ui/ControlPanel/Plugins/Add/Themes</pre>
+</div>
+<div created="20201226114128345" modified="20201226114248833" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
+</div>
+<div created="20201226113628656" modified="20201226113628656" title="$:/state/tab--86143343">
+<pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
+</div>
 <div created="20201224201239697" modified="20201224201239697" title="$:/state/tab-1163638994">
 <pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
 </div>
-<div created="20201224200917433" modified="20201224200917433" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20201224200917433" modified="20201226114117592" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20201224204715695" modified="20201224224828626" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20201224201221985" modified="20201224201637832" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/Explorer</pre>
+<div created="20201224201221985" modified="20201226113715546" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Missing</pre>
 </div>
 <div created="20201224201817246" modified="20201224201817246" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/plugins/reidgould/dpbd/state/Основная доска/SideBar</pre>
 </div>
-<div created="20201224201214655" modified="20201224233817990" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20201224201214655" modified="20201226114106640" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20201224201601695" modified="20201224201602661" title="$:/state/tree/$:/boot/">
 <pre>hide</pre>
@@ -10420,8 +10449,11 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201226113130968" list="[[Доска задач]] tid/H1EMOOzpv Обсуждения" modified="20201226113130968" title="$:/StoryList">
+<div created="20201226113130968" list="[[Доска задач]] Обсуждения" modified="20201226114344568" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20201226114119927" modified="20201226114119927" title="$:/theme">
+<pre>$:/themes/tiddlywiki/tight</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
 <pre>{
@@ -10430,6 +10462,17 @@ Error message and password prompt
             &quot;title&quot;: &quot;$:/themes/tiddlywiki/snowwhite/base&quot;,
             &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
             &quot;text&quot;: &quot;\\define sidebarbreakpoint-minus-one()\n&lt;$text text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]subtract[1]addsuffix[px]] ~[{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}] }}}/&gt;\n\\end\n\n\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\n.tc-sidebar-header {\n\ttext-shadow: 0 1px 0 &lt;&lt;colour sidebar-foreground-shadow&gt;&gt;;\n}\n\n.tc-tiddler-info {\n\t&lt;&lt;box-shadow \&quot;inset 1px 2px 3px rgba(0,0,0,0.1)\&quot;&gt;&gt;\n}\n\n@media screen {\n\t.tc-tiddler-frame {\n\t\t&lt;&lt;box-shadow \&quot;1px 1px 5px rgba(0, 0, 0, 0.3)\&quot;&gt;&gt;\n\t}\n}\n\n@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {\n\t.tc-tiddler-frame {\n\t\t&lt;&lt;box-shadow none&gt;&gt;\n\t}\n}\n\n.tc-page-controls button svg, .tc-tiddler-controls button svg, .tc-topbar button svg {\n\t&lt;&lt;transition \&quot;fill 150ms ease-in-out\&quot;&gt;&gt;\n}\n\n.tc-tiddler-controls button.tc-selected,\n.tc-page-controls button.tc-selected {\n\t&lt;&lt;filter \&quot;drop-shadow(0px -1px 2px rgba(0,0,0,0.25))\&quot;&gt;&gt;\n}\n\n.tc-tiddler-frame input.tc-edit-texteditor {\n\t&lt;&lt;box-shadow \&quot;inset 0 1px 8px rgba(0, 0, 0, 0.15)\&quot;&gt;&gt;\n}\n\n.tc-edit-tags {\n\t&lt;&lt;box-shadow \&quot;inset 0 1px 8px rgba(0, 0, 0, 0.15)\&quot;&gt;&gt;\n}\n\n.tc-tiddler-frame .tc-edit-tags input.tc-edit-texteditor {\n\t&lt;&lt;box-shadow \&quot;none\&quot;&gt;&gt;\n\tborder: none;\n\toutline: none;\n}\n\ntextarea.tc-edit-texteditor {\n\tfont-family: {{$:/themes/tiddlywiki/vanilla/settings/editorfontfamily}};\n}\n\ncanvas.tc-edit-bitmapeditor  {\n\t&lt;&lt;box-shadow \&quot;2px 2px 5px rgba(0, 0, 0, 0.5)\&quot;&gt;&gt;\n}\n\n.tc-drop-down {\n\tborder-radius: 4px;\n\t&lt;&lt;box-shadow \&quot;2px 2px 10px rgba(0, 0, 0, 0.5)\&quot;&gt;&gt;\n}\n\n.tc-block-dropdown {\n\tborder-radius: 4px;\n\t&lt;&lt;box-shadow \&quot;2px 2px 10px rgba(0, 0, 0, 0.5)\&quot;&gt;&gt;\n}\n\n.tc-modal {\n\tborder-radius: 6px;\n\t&lt;&lt;box-shadow \&quot;0 3px 7px rgba(0,0,0,0.3)\&quot;&gt;&gt;\n}\n\n.tc-modal-footer {\n\tborder-radius: 0 0 6px 6px;\n\t&lt;&lt;box-shadow \&quot;inset 0 1px 0 #fff\&quot;&gt;&gt;;\n}\n\n\n.tc-alert {\n\tborder-radius: 6px;\n\t&lt;&lt;box-shadow \&quot;0 3px 7px rgba(0,0,0,0.6)\&quot;&gt;&gt;\n}\n\n.tc-notification {\n\tborder-radius: 6px;\n\t&lt;&lt;box-shadow \&quot;0 3px 7px rgba(0,0,0,0.3)\&quot;&gt;&gt;\n\ttext-shadow: 0 1px 0 rgba(255,255,255, 0.8);\n}\n\n.tc-sidebar-lists .tc-tab-set .tc-tab-divider {\n\tborder-top: none;\n\theight: 1px;\n\t&lt;&lt;background-linear-gradient \&quot;left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%\&quot;&gt;&gt;\n}\n\n.tc-more-sidebar &gt; .tc-tab-set &gt; .tc-tab-buttons &gt; button {\n\t&lt;&lt;background-linear-gradient \&quot;left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%\&quot;&gt;&gt;\n}\n\n.tc-more-sidebar &gt; .tc-tab-set &gt; .tc-tab-buttons &gt; button.tc-tab-selected {\n\t&lt;&lt;background-linear-gradient \&quot;left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%\&quot;&gt;&gt;\n}\n\n.tc-message-box img {\n\t&lt;&lt;box-shadow \&quot;1px 1px 3px rgba(0,0,0,0.5)\&quot;&gt;&gt;\n}\n\n.tc-plugin-info {\n\t&lt;&lt;box-shadow \&quot;1px 1px 3px rgba(0,0,0,0.5)\&quot;&gt;&gt;\n}\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Tightly packed theme" name="Tight" plugin-type="theme" title="$:/themes/tiddlywiki/tight" type="application/json" version="5.1.23">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/themes/tiddlywiki/tight/base&quot;: {
+            &quot;title&quot;: &quot;$:/themes/tiddlywiki/tight/base&quot;,
+            &quot;tags&quot;: &quot;[[$:/tags/Stylesheet]]&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\n@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {\n}\n\n@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {\n\n\thtml body.tc-body {\n\t\tfont-size: 13px;\n\t\tline-height: 16px;\n\t}\n\n\thtml body.tc-body h1,\n\thtml body.tc-body h2,\n\thtml body.tc-body h3,\n\thtml body.tc-body h4,\n\thtml body.tc-body p {\n\t\tmargin-top: 0.3em;\n\t\tmargin-bottom: 0.3em;\n\t}\n\n\thtml body.tc-body code {\n\t\tfont-size: 0.8em;\n\t}\n\n\thtml body.tc-body section.tc-story-river {\n\t\tpadding: 0px;\n\t}\n\n\thtml body.tc-body div.tc-tiddler-frame {\n\t\tpadding: 12px;\n\t}\n\n\thtml body.tc-body div.tc-sidebar-scrollable {\n\t\tpadding: 12px 0 12px 12px;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-subtitle {\n\t\tfont-size: 0.7em;\n\t\tfont-weight: 700;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-subtitle .tc-tiddlylink {\n\t\tmargin-right: .3em;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tags-wrapper {\n\t\tmargin: 0;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame button.tc-tag-label,\n\thtml body.tc-body .tc-tiddler-frame span.tc-tag-label {\n\t\tfont-size: 0.8em;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tiddler-body h1 {\n\t\tfont-size: 1.5em;\n\t\tfont-weight: 500;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tiddler-body h2 {\n\t\tfont-size: 1.3em;\n\t\tfont-weight: 500;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tiddler-body h3 {\n\t\tfont-size: 1.2em;\n\t\tfont-weight: 500;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tiddler-body h4 {\n\t\tfont-size: 1.1em;\n\t\tfont-weight: 500;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-improvement-banner {\n\t\tmargin-right: -15px;\n\t\tmargin-left: -10px;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-tiddler-info {\n\t    margin: 0 -13px 0 -13px;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-fold-banner {\n\t    width: 13px;\n\t    margin-left: -15px;\n\t}\n\n\thtml body.tc-body .tc-tiddler-frame .tc-unfold-banner {\n\t    margin-left: -13px;\n\t    margin-top: -4px;\n\t}\n\n}\n&quot;
         }
     }
 }</pre>
@@ -10541,7 +10584,7 @@ Error message and password prompt
 <div color="#98d3e8" created="20201224202947886" list="tid/H1EMOOzpv" modified="20201224203353242" tags="[[Доска задач]]" title="В процессе">
 <pre></pre>
 </div>
-<div color="#2e890d" created="20201224203028111" dpbd-collapse_in="[[Доска задач]]" list="[[Draft of 'tid/rymp3uM6w']]" modified="20201224204455508" tags="[[Доска задач]]" title="Готово">
+<div color="#2e890d" created="20201224203028111" dpbd-collapse_in="[[Доска задач]]" list="[[Draft of 'tid/rymp3uM6w']]" modified="20201226113311292" tags="[[Доска задач]]" title="Готово">
 <pre></pre>
 </div>
 <div color="#b3dca8" created="20201224202212267" list="tid/rJSJqdfpP" modified="20201224203404615" tags="Обсуждения" title="Долгосрочное">
